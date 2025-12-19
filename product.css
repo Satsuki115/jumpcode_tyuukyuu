@@ -124,22 +124,27 @@ main{
 }
 .product-view{
     display:grid;
-    grid-template-rows: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr ;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 
 }
 .page-link{
-    text-align: center;
-    width:100%;
-    margin-top:50px;
-    color:black;
-    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+
 }
 .page-link a:hover{
     color: #dcdcdc;
 
 }
+.page-link li{
+    list-style:none;
+}
 .page-link a{
+    text-align: center;
+    margin-right:40px;
     font-size:18px;
     color:black;
     text-decoration: none;
