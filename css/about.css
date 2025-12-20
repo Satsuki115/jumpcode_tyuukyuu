@@ -74,15 +74,11 @@ header h1{
     justify-content: flex-start;
     margin-top: 30px;
     margin-left:50px;
-      
-}
-.menu li{
-    margin-top:14px;
-   
-     list-style: none;  
 }
 .menu a{
-     font-size:20px;
+    margin-top:14px;
+    margin-bottom:14px;
+    font-size:20px;
     color:white;
     text-decoration:none;  
 }
@@ -100,58 +96,20 @@ header h1{
 }
 /* main部分のスタイル */
 main{
-    margin-top: 80px;
+    margin-top: 120px;
     margin-left:160px;
     margin-right:160px;
     margin-bottom:160px;
 }
-.products{
-    display:flex;
-    flex-direction:column;
-    align-items: center;
-    justify-content: center;
-    margin-bottom:50px;
-    margin-right:20px;
-}
-.products img{
-    width:294px;
-    height:294px;
-    object-fit: cover;
-}
-.products img:hover{
-    opacity:0.5;
-    transition: 0.3s;;
-}
-.products p{
-    font-size:18px;
-    text-align: flex-start;
-}
-.product-view{
-    display:grid;
-    grid-template-rows: 1fr 1fr 1fr ;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-
-}
-.page-link{
+section{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items:center;
-
+    flex-direction: column;
+    justify-content: left;
+    
 }
-.page-link a:hover{
-    color: #dcdcdc;
-
-}
-.page-link li{
-    list-style:none;
-}
-.page-link a{
-    text-align: center;
-    margin-right:40px;
-    font-size:18px;
-    color:black;
-    text-decoration: none;
+section div{
+    margin-bottom:40px;
+    width:600px;
 }
 footer{
     display: flex;
@@ -162,6 +120,7 @@ footer{
     height:38px;
     position: fixed;
     bottom:0;
+    
 }
 footer p{
     margin-right:160px;
